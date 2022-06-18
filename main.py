@@ -19,6 +19,9 @@ def merge_channels(input_dir, output_dir):
 if __name__ == '__main__':
     image_count = open('image_counter.txt').read()
     input_dir, output_dir = 'data', 'rgb_data'
+    
+    if not os.path.exists(output_dir):
+        os.mkdir(output_dir)
 
     merge_channels(input_dir, output_dir)
     

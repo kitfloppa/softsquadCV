@@ -6,7 +6,6 @@ __pycache__/
 # Images
 *.jpg
 *.csv
-*.txt
 
 # Files
 data/

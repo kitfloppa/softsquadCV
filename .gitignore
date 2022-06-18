@@ -5,11 +5,11 @@ __pycache__/
 
 # Images
 *.jpg
-*.csv
 
 # Files
 data/
 rgb_data/
+yolov5/
 
 # C extensions
 *.so

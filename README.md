@@ -1,0 +1,2 @@
+# softsquadCV
+vezdecode tasks
